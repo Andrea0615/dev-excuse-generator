@@ -23,4 +23,3 @@ jobs:
         run: npm run format:check
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
-       

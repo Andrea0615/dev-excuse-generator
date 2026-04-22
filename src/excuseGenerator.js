@@ -48,12 +48,10 @@ function generateExcuse(category) {
     }
   };
 
-  
   if (!FRAGMENTS[category]) {
     return `Unknown category: ${category}`;
   }
 
- 
   const subject = pickRandom(FRAGMENTS[category].subjects);
   const verb = pickRandom(FRAGMENTS[category].verbs);
   const reason = pickRandom(FRAGMENTS[category].reasons);
